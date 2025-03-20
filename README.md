@@ -47,7 +47,7 @@ The docker-compose.yml file includes configuration for GPU support. If you don't
 To use custom models with Ollama, you can SSH into the server and run:
 
 ```bash
-docker exec -it irb-chatbot-ollama-1 ollama pull <model-name>
+docker exec -it ai-chatbot-ollama-1 ollama pull <model-name>
 ```
 
 Then update the default model in the application settings.
