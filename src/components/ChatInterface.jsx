@@ -34,7 +34,7 @@ const ChatInterface = () => {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h2>IRB Support Chat</h2>
+        <h2>AI ChatBot</h2>
         <button 
           className="clear-button" 
           onClick={clearChat}
@@ -47,8 +47,8 @@ const ChatInterface = () => {
       <div className="messages-container">
         {messages.length === 0 ? (
           <div className="welcome-message">
-            <h3>Welcome to IRB Support ChatBot!</h3>
-            <p>I'm here to assist with IT support questions for IRB Barcelona.</p>
+            <h3>Welcome to the AI chatbot</h3>
+            <p>I'm here to assist with any issuess you might have.</p>
             <p>Type 'help' for assistance on how to use this chatbot effectively.</p>
           </div>
         ) : (
@@ -58,7 +58,7 @@ const ChatInterface = () => {
               className={`message ${msg.role === 'user' ? 'user-message' : 'assistant-message'}`}
             >
               <div className="message-header">
-                <strong>{msg.role === 'user' ? 'You' : 'IRB Support'}</strong>
+                <strong>{msg.role === 'user' ? 'You' : 'AI Chatbot'}</strong>
               </div>
               <div className="message-content">
                 {formatMessage(msg.content)}
@@ -69,7 +69,7 @@ const ChatInterface = () => {
         {isLoading && (
           <div className="message assistant-message loading">
             <div className="message-header">
-              <strong>IRB Support</strong>
+              <strong>AI Support</strong>
             </div>
             <div className="message-content">
               <div className="typing-indicator">

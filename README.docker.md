@@ -1,6 +1,6 @@
-# IRB Chatbot Docker Deployment
+# AI Chatbot Docker Deployment
 
-This document provides instructions for deploying the IRB Chatbot application using Docker and Docker Compose.
+This document provides instructions for deploying the AI Chatbot application using Docker and Docker Compose.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ This document provides instructions for deploying the IRB Chatbot application us
 
 ```bash
 git clone <repository-url>
-cd irb-chatbot
+cd ai-chatbot
 ```
 
 ### 2. Configure environment variables (optional)

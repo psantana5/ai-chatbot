@@ -91,12 +91,12 @@ const SettingsPanel = () => {
       
       <div className="help-section">
         <h3>Help</h3>
-        <p>To use this support chatbot effectively:</p>
+        <p>To use this Phoenix-sec.org support chatbot effectively:</p>
         <ul>
           <li>Make sure you have a stable internet connection</li>
           <li>Adjust the settings above to customize the support assistant's behavior</li>
           <li>Return to the chat interface to start interacting with the support assistant</li>
-          <li>For urgent issues, please contact the IT department directly</li>
+          <li>For urgent issues, please contact Phoenix-sec.org directly</li>
         </ul>
       </div>
     </div>

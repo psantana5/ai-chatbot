@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import ChatInterface from './components/ChatInterface'
 import SettingsPanel from './components/SettingsPanel'
 import ChatHistorySidebar from './components/ChatHistorySidebar'
 import { ModelProvider } from './context/ModelContext'
-import irbLogo from './assets/irb-logo.svg'
+
+
 
 function App() {
   const [showSettings, setShowSettings] = useState(false)
@@ -14,8 +15,8 @@ function App() {
       <div className="app-container">
         <header className="app-header">
           <div className="logo-container">
-            <img src={irbLogo} alt="IRB Barcelona Logo" className="irb-logo" />
-            <h1></h1>
+            {/* Removed logo image */}
+            <h1>AI Chat Assistant</h1>
           </div>
           <button 
             className="settings-button"
@@ -39,7 +40,7 @@ function App() {
         </main>
         
         <footer className="app-footer">
-          <p>IRB Barcelona IT Support Assistant</p>
+          <p>Phoenix-Sec assistant</p>
         </footer>
       </div>
     </ModelProvider>

@@ -26,18 +26,19 @@
   gap: 1rem;
 }
 
-.irb-logo {
+
+.phoenix-logo {
   height: 45px;
   width: auto;
   transition: transform 0.3s ease;
 }
 
-.irb-logo:hover {
+.phoenix-logo:hover {
   transform: scale(1.05);
 }
 
 .app-header h1 {
-  color: #003DA6;
+  color: #003DA6; 
   font-size: 1.8rem;
   font-weight: 600;
   margin: 0;
